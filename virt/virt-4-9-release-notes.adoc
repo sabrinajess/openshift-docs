@@ -113,19 +113,12 @@ If you want to disable this behavior before you upgrade to {VirtProductName} {Vi
 //CNV-14193 Virt dashboard
 * You can use the xref:../virt/logging_events_monitoring/virt-reviewing-vm-dashboard.adoc#virt-reviewing-vm-dashboard[{VirtProductName} dashboard] in the web console to get data on resource consumption for virtual machines and associated pods. The dashboard provides visual representations of cluster metrics so you can quickly understand the state of your cluster.
 
-[id="virt-4-9-deprecated-removed"]
-== Deprecated and removed features
-
-[id="virt-4-9-deprecated"]
-=== Deprecated features
-
-Deprecated features are included in the current release and supported. However, they will be removed in a future release and are not recommended for new deployments.
-
-//CNV-11468 Single VM import from RHV/VMware deprecated
-* Importing a single virtual machine from Red Hat Virtualization (RHV) or VMware is deprecated in the current release and will be removed in {VirtProductName} 4.9. This feature is replaced by the link:https://access.redhat.com/documentation/en-us/migration_toolkit_for_virtualization[Migration Toolkit for Virtualization].
-
 [id="virt-4-9-removed"]
-=== Removed features
+== Removed features
+
+Removed features are not supported in the current release.
+
+* Importing a single virtual machine from Red Hat Virtualization (RHV) or VMware is removed from {VirtProductName} 4.9. This feature is replaced by the link:https://access.redhat.com/documentation/en-us/migration_toolkit_for_virtualization[Migration Toolkit for Virtualization].
 
 [id="virt-4-9-changes"]
 == Notable technical changes
